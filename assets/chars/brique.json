@@ -1,0 +1,317 @@
+{
+ "id": "brique",
+ "name": "Brique",
+ "generator": "Tools/Blender/claykit/build_char.py",
+ "definition": "Tools/Blender/claykit/chars/brique.py",
+ "variant": 1,
+ "note": "Generated; do not edit by hand. Skeleton = Quaternius UAL (bone names and rest orientations), re-proportioned lengths only: play chars/ual_clips.glb by bone name.",
+ "height": 1.02,
+ "topY": 1.056,
+ "headCenterY": 0.82,
+ "headH": 0.4,
+ "bubbleY": 1.176,
+ "pelvisScale": 0.3818,
+ "pelvisRest": [
+  0,
+  0.01913,
+  0.35
+ ],
+ "ualPelvisRest": [
+  0.0,
+  0.0501,
+  0.9167
+ ],
+ "lods": {
+  "high": {
+   "file": "brique.glb",
+   "tris": 11832
+  },
+  "low": {
+   "file": "brique_low.glb",
+   "tris": 4890
+  }
+ },
+ "meshes": {
+  "body": "Body",
+  "face": "Face"
+ },
+ "armSpread": {
+  "deg": 16.0,
+  "note": "optional: bone.quaternion.premultiply(new Quaternion().setFromAxisAngle(axis, deg * PI / 180)) after the mixer; 0 = raw UAL arms",
+  "upperarm_l": [
+   0.86176,
+   -0.50731,
+   -0.00026
+  ],
+  "upperarm_r": [
+   0.86176,
+   0.50731,
+   0.00026
+  ]
+ },
+ "face": {
+  "kind": "claykit-1",
+  "axes": "face bones share the Head bone's rest orientation: X = character's left, Y = up, Z = forward; rot = [axis, degrees at value 1] applied in the bone's local frame on top of its rest rotation; move = metres at value 1 added to its rest position (Head space); morph = morph-target influence on mesh 'Face'.",
+  "eyes": [
+   "eye_l",
+   "eye_r"
+  ],
+  "lookYawDeg": 22,
+  "lookPitchDeg": 14,
+  "eyeAxes": {
+   "yaw": [
+    0,
+    1,
+    0
+   ],
+   "pitch": [
+    1,
+    0,
+    0
+   ]
+  },
+  "bones": [
+   "eye_l",
+   "eye_r",
+   "lidU_l",
+   "lidD_l",
+   "lidU_r",
+   "lidD_r",
+   "brow_l",
+   "brow_r"
+  ],
+  "morphMesh": "Face",
+  "morphs": [
+   "Mouth_Open",
+   "Mouth_Smile",
+   "Mouth_Frown",
+   "Mouth_O",
+   "Mouth_Wide"
+  ],
+  "lipSync": "Mouth_Open",
+  "controls": {
+   "Blink_L": {
+    "bone": "lidU_l",
+    "rot": [
+     1,
+     0,
+     0,
+     62.0
+    ]
+   },
+   "Wide_L": {
+    "bone": "lidU_l",
+    "rot": [
+     1,
+     0,
+     0,
+     -12.0
+    ]
+   },
+   "Squint_L": {
+    "bone": "lidD_l",
+    "rot": [
+     1,
+     0,
+     0,
+     -26.0
+    ]
+   },
+   "BrowUp_L": {
+    "bone": "brow_l",
+    "move": [
+     0,
+     0.022,
+     0
+    ]
+   },
+   "BrowDown_L": {
+    "bone": "brow_l",
+    "move": [
+     0,
+     -0.011,
+     0
+    ]
+   },
+   "BrowAngry_L": {
+    "bone": "brow_l",
+    "rot": [
+     0,
+     0,
+     1,
+     16.0
+    ],
+    "move": [
+     0,
+     -0.007699999999999999,
+     0.003
+    ]
+   },
+   "BrowSad_L": {
+    "bone": "brow_l",
+    "rot": [
+     0,
+     0,
+     1,
+     -16.0
+    ],
+    "move": [
+     0,
+     0.0032999999999999995,
+     0.0
+    ]
+   },
+   "Blink_R": {
+    "bone": "lidU_r",
+    "rot": [
+     1,
+     0,
+     0,
+     62.0
+    ]
+   },
+   "Wide_R": {
+    "bone": "lidU_r",
+    "rot": [
+     1,
+     0,
+     0,
+     -12.0
+    ]
+   },
+   "Squint_R": {
+    "bone": "lidD_r",
+    "rot": [
+     1,
+     0,
+     0,
+     -26.0
+    ]
+   },
+   "BrowUp_R": {
+    "bone": "brow_r",
+    "move": [
+     0,
+     0.022,
+     0
+    ]
+   },
+   "BrowDown_R": {
+    "bone": "brow_r",
+    "move": [
+     0,
+     -0.011,
+     0
+    ]
+   },
+   "BrowAngry_R": {
+    "bone": "brow_r",
+    "rot": [
+     0,
+     0,
+     1,
+     -16.0
+    ],
+    "move": [
+     0,
+     -0.007699999999999999,
+     0.003
+    ]
+   },
+   "BrowSad_R": {
+    "bone": "brow_r",
+    "rot": [
+     0,
+     0,
+     1,
+     16.0
+    ],
+    "move": [
+     0,
+     0.0032999999999999995,
+     0.0
+    ]
+   },
+   "Mouth_Open": {
+    "morph": "Mouth_Open"
+   },
+   "Mouth_Smile": {
+    "morph": "Mouth_Smile"
+   },
+   "Mouth_Frown": {
+    "morph": "Mouth_Frown"
+   },
+   "Mouth_O": {
+    "morph": "Mouth_O"
+   },
+   "Mouth_Wide": {
+    "morph": "Mouth_Wide"
+   }
+  }
+ },
+ "presets": {
+  "neutral": {
+   "BrowAngry_L": 0.25,
+   "BrowAngry_R": 0.25,
+   "Mouth_Smile": 0.2
+  },
+  "smile": {
+   "Mouth_Smile": 0.85,
+   "Squint_L": 0.3,
+   "Squint_R": 0.3,
+   "BrowUp_L": 0.15,
+   "BrowUp_R": 0.15
+  },
+  "talk": {
+   "Mouth_Open": 0.4,
+   "Mouth_Smile": 0.3,
+   "BrowUp_L": 0.2,
+   "BrowUp_R": 0.2
+  },
+  "surprised": {
+   "Mouth_O": 1.0,
+   "Wide_L": 1.0,
+   "Wide_R": 1.0,
+   "BrowUp_L": 1.0,
+   "BrowUp_R": 1.0
+  },
+  "sad": {
+   "Mouth_Frown": 1.0,
+   "BrowSad_L": 1.0,
+   "BrowSad_R": 1.0,
+   "Blink_L": 0.22,
+   "Blink_R": 0.22
+  },
+  "laugh": {
+   "Mouth_Open": 0.75,
+   "Mouth_Smile": 1.0,
+   "Squint_L": 1.0,
+   "Squint_R": 1.0,
+   "Blink_L": 0.55,
+   "Blink_R": 0.55,
+   "BrowUp_L": 0.45,
+   "BrowUp_R": 0.45
+  },
+  "angry": {
+   "Mouth_Frown": 0.75,
+   "Mouth_Wide": 0.2,
+   "BrowAngry_L": 1.0,
+   "BrowAngry_R": 1.0,
+   "Blink_L": 0.18,
+   "Blink_R": 0.18
+  },
+  "sleepy": {
+   "Blink_L": 0.62,
+   "Blink_R": 0.62,
+   "BrowSad_L": 0.25,
+   "BrowSad_R": 0.25,
+   "Mouth_O": 0.15,
+   "Mouth_Open": 0.08
+  }
+ },
+ "springs": [],
+ "beard": null,
+ "verify": {
+  "restRotationErrorDeg": 0.03749
+ }
+}

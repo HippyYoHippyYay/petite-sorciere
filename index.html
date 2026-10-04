@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#2a1840" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="description" content="Jeu d'aventure magique à embranchements, d'après le livre de Juliette Dorgeo." />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <title>L'aventure magique dont tu es la sorcière !</title>
+  <script type="module" crossorigin src="./assets/index-BKdWuzlj.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-VkBdVATJ.css">
+</head>
+<body>
+  <div id="app"></div>
+  <div id="ui">
+    <div id="page" class="hidden"><div class="page-frame"><img alt="" /><div class="page-title"></div></div></div>
+    <div id="bubbles"></div>
+    <div id="caption" class="hidden"><div class="caption-text"></div></div>
+    <div id="choices" class="hidden"></div>
+    <div id="hud" class="hidden">
+      <div class="hud-left">
+        <div class="hud-chips"><div id="sparkles"><span class="spark-ico">✦</span><span class="n">0</span></div>
+          <div id="stars" title="Niveau de sorcière"><span class="star-ico">★</span><span class="lv">1</span></div></div>
+        <div id="objective" class="hidden off"><span class="ico"></span><span class="txt"></span></div>
+      </div>
+      <div class="hud-right">
+        <button id="btn-hint" class="round" aria-label="Indice"><span class="ico cat-ico"></span></button>
+        <button id="btn-hat" class="round" aria-label="Ton chapeau"><span class="ico hat-ico"></span></button>
+      </div>
+    </div>
+    <div id="touch" class="hidden">
+      <div id="stick-zone"><div id="stick-base"><div id="stick-knob"></div></div></div>
+      <div id="touch-buttons">
+        <button id="tb-magie" class="tbtn" aria-label="Magie">✨</button>
+        <button id="tb-action" class="tbtn big" aria-label="Action">✋</button>
+      </div>
+    </div>
+    <div id="hatpage" class="hidden"></div>
+    <div id="letter" class="hidden"><div class="letter-paper"><div class="letter-body"></div><div class="letter-seal">U</div></div></div>
+    <div id="toast" class="hidden"></div>
+    <div id="questcard" class="hidden"><div class="qc-ico"></div><div class="qc-kicker"></div><div class="qc-title"></div></div>
+    <div id="fade"></div>
+    <div id="title" class="hidden"></div>
+    <div id="loading">
+      <div class="load-box">
+        <div class="load-title">L'aventure magique<br />dont tu es la <s>héros</s> <em>sorcière</em> !</div>
+        <div class="load-bar"><i></i></div>
+        <div class="load-line">On secoue le chapeau…</div>
+      </div>
+    </div>
+    <div id="rotate" class="hidden"><div>↻</div><p>Tourne ton écran pour jouer !</p></div>
+  </div>
+</body>
+</html>

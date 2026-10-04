@@ -1,0 +1,752 @@
+{
+ "music": {
+  "hg04_village": {
+   "file": "music/hg04_village.m4a",
+   "loopStart": 1.12415,
+   "loopEnd": 86.668798,
+   "gain": 1.0
+  },
+  "hg05_voyage": {
+   "file": "music/hg05_voyage.m4a",
+   "loopStart": 1.303741,
+   "loopEnd": 47.004626,
+   "gain": 1.0
+  },
+  "hg11_caverne": {
+   "file": "music/hg11_caverne.m4a",
+   "loopStart": 1.478345,
+   "loopEnd": 80.765941,
+   "gain": 1.0
+  },
+  "abs_shimmer": {
+   "file": "music/abs_shimmer.m4a",
+   "loopStart": 1.398526,
+   "loopEnd": 51.485488,
+   "gain": 1.0
+  },
+  "luge": {
+   "file": "music/luge.m4a",
+   "loopStart": 0.784921,
+   "loopEnd": 51.984921,
+   "gain": 1.0
+  },
+  "hg06_caverne": {
+   "file": "music/hg06_caverne.m4a",
+   "loopStart": 0.89966,
+   "loopEnd": 82.721088,
+   "gain": 1.0
+  },
+  "hg07_foret": {
+   "file": "music/hg07_foret.m4a",
+   "loopStart": 28.298277,
+   "loopEnd": 82.936667,
+   "gain": 1.0
+  },
+  "hg08_hameau": {
+   "file": "music/hg08_hameau.m4a",
+   "loopStart": 1.079252,
+   "loopEnd": 60.507823,
+   "gain": 1.0
+  },
+  "hg17_ile": {
+   "file": "music/hg17_ile.m4a",
+   "loopStart": 5.015351,
+   "loopEnd": 58.480703,
+   "gain": 1.0
+  },
+  "troub_mud": {
+   "file": "music/troub_mud.m4a",
+   "loopStart": 0.939569,
+   "loopEnd": 41.360635,
+   "gain": 1.0
+  },
+  "hg02_ville": {
+   "file": "music/hg02_ville.m4a",
+   "loopStart": 1.04932,
+   "loopEnd": 65.665397,
+   "gain": 1.0
+  },
+  "hg03_chateau": {
+   "file": "music/hg03_chateau.m4a",
+   "loopStart": 1.573129,
+   "loopEnd": 65.858844,
+   "gain": 1.0
+  },
+  "abs_alleycat": {
+   "file": "music/abs_alleycat.m4a",
+   "loopStart": 0.994444,
+   "loopEnd": 17.985601,
+   "gain": 1.0
+  },
+  "hg18_magicien": {
+   "file": "music/hg18_magicien.m4a",
+   "loopStart": 1.677891,
+   "loopEnd": 49.204671,
+   "gain": 1.0
+  },
+  "hg14_ciel": {
+   "file": "music/hg14_ciel.m4a",
+   "loopStart": 1.283787,
+   "loopEnd": 71.358095,
+   "gain": 1.0
+  },
+  "abs_graceful": {
+   "file": "music/abs_graceful.m4a",
+   "loopStart": 1.453401,
+   "loopEnd": 26.540522,
+   "gain": 1.0
+  },
+  "abs_gravity": {
+   "file": "music/abs_gravity.m4a",
+   "loopStart": 1.448413,
+   "loopEnd": 29.648413,
+   "gain": 1.0
+  },
+  "troub_rainbow": {
+   "file": "music/troub_rainbow.m4a",
+   "loopStart": 1.647959,
+   "loopEnd": 42.069025,
+   "gain": 1.0
+  },
+  "troub_hungry": {
+   "file": "music/troub_hungry.m4a",
+   "loopStart": 1.218934,
+   "loopEnd": 41.64,
+   "gain": 1.0
+  },
+  "troub_guinea": {
+   "file": "music/troub_guinea.m4a",
+   "loopStart": 1.473356,
+   "loopEnd": 41.894422,
+   "gain": 1.0
+  },
+  "troub_road": {
+   "file": "music/troub_road.m4a",
+   "loopStart": 1.558163,
+   "loopEnd": 41.979229,
+   "gain": 1.0
+  },
+  "abs_reef": {
+   "file": "music/abs_reef.m4a",
+   "loopStart": 1.603061,
+   "loopEnd": 54.936395,
+   "gain": 1.0
+  },
+  "reve": {
+   "file": "music/reve.m4a",
+   "loopStart": 0.754989,
+   "loopEnd": 50.104853,
+   "gain": 0.85
+  },
+  "hg12_monstre": {
+   "file": "music/hg12_monstre.m4a",
+   "loopStart": 1.637982,
+   "loopEnd": 33.639728,
+   "gain": 1.0
+  },
+  "troub_goodking": {
+   "file": "music/troub_goodking.m4a",
+   "loopStart": 1.652948,
+   "loopEnd": 42.074014,
+   "gain": 1.0
+  },
+  "troub_clouds": {
+   "file": "music/troub_clouds.m4a",
+   "loopStart": 1.657937,
+   "loopEnd": 42.079002,
+   "gain": 1.0
+  },
+  "hg28_sanctuaire": {
+   "file": "music/hg28_sanctuaire.m4a",
+   "loopStart": 1.553175,
+   "loopEnd": 76.222812,
+   "gain": 1.0
+  },
+  "titre": {
+   "file": "music/titre.m4a",
+   "loopStart": 45.224467,
+   "loopEnd": 77.951746,
+   "gain": 1.0
+  },
+  "fete": {
+   "file": "music/fete.m4a",
+   "loopStart": 1.453401,
+   "loopEnd": 103.137619,
+   "gain": 1.0
+  }
+ },
+ "amb": {
+  "maison_matin": {
+   "file": "amb/maison_matin.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 48.0
+  },
+  "village": {
+   "file": "amb/village.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 48.0
+  },
+  "riviere_oiseaux": {
+   "file": "amb/riviere_oiseaux.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 40.0
+  },
+  "lave": {
+   "file": "amb/lave.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 40.0
+  },
+  "vent_montagne": {
+   "file": "amb/vent_montagne.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "gouttes": {
+   "file": "amb/gouttes.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "prairie": {
+   "file": "amb/prairie.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 49.92
+  },
+  "foret": {
+   "file": "amb/foret.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "riviere": {
+   "file": "amb/riviere.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 40.0
+  },
+  "marecage": {
+   "file": "amb/marecage.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 40.0
+  },
+  "marche": {
+   "file": "amb/marche.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 48.0
+  },
+  "colline": {
+   "file": "amb/colline.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "cachot": {
+   "file": "amb/cachot.m4a",
+   "gain": 0.8,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "bois": {
+   "file": "amb/bois.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "feu_cheminee": {
+   "file": "amb/feu_cheminee.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 35.84
+  },
+  "nuit_douce": {
+   "file": "amb/nuit_douce.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "galerie": {
+   "file": "amb/galerie.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 45.12
+  },
+  "feu_nuit": {
+   "file": "amb/feu_nuit.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 40.0
+  },
+  "sous_leau": {
+   "file": "amb/sous_leau.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 40.0
+  },
+  "reve": {
+   "file": "amb/reve.m4a",
+   "gain": 1.0,
+   "loopStart": 0.0,
+   "loopEnd": 48.0
+  }
+ },
+ "sfx": {
+  "steps_grass": {
+   "files": [
+    "sfx/steps_grass_1.m4a",
+    "sfx/steps_grass_2.m4a",
+    "sfx/steps_grass_3.m4a",
+    "sfx/steps_grass_4.m4a",
+    "sfx/steps_grass_5.m4a",
+    "sfx/steps_grass_6.m4a",
+    "sfx/steps_grass_7.m4a",
+    "sfx/steps_grass_8.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "steps_dirt": {
+   "files": [
+    "sfx/steps_dirt_1.m4a",
+    "sfx/steps_dirt_2.m4a",
+    "sfx/steps_dirt_3.m4a",
+    "sfx/steps_dirt_4.m4a",
+    "sfx/steps_dirt_5.m4a",
+    "sfx/steps_dirt_6.m4a",
+    "sfx/steps_dirt_7.m4a",
+    "sfx/steps_dirt_8.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "steps_stone": {
+   "files": [
+    "sfx/steps_stone_1.m4a",
+    "sfx/steps_stone_2.m4a",
+    "sfx/steps_stone_3.m4a",
+    "sfx/steps_stone_4.m4a",
+    "sfx/steps_stone_5.m4a",
+    "sfx/steps_stone_6.m4a",
+    "sfx/steps_stone_7.m4a",
+    "sfx/steps_stone_8.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "steps_wood": {
+   "files": [
+    "sfx/steps_wood_1.m4a",
+    "sfx/steps_wood_2.m4a",
+    "sfx/steps_wood_3.m4a",
+    "sfx/steps_wood_4.m4a",
+    "sfx/steps_wood_5.m4a",
+    "sfx/steps_wood_6.m4a",
+    "sfx/steps_wood_7.m4a",
+    "sfx/steps_wood_8.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "steps_snow": {
+   "files": [
+    "sfx/steps_snow_1.m4a",
+    "sfx/steps_snow_2.m4a",
+    "sfx/steps_snow_3.m4a",
+    "sfx/steps_snow_4.m4a",
+    "sfx/steps_snow_5.m4a",
+    "sfx/steps_snow_6.m4a",
+    "sfx/steps_snow_7.m4a",
+    "sfx/steps_snow_8.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "steps_water": {
+   "files": [
+    "sfx/steps_water_1.m4a",
+    "sfx/steps_water_2.m4a",
+    "sfx/steps_water_3.m4a",
+    "sfx/steps_water_4.m4a",
+    "sfx/steps_water_5.m4a",
+    "sfx/steps_water_6.m4a",
+    "sfx/steps_water_7.m4a",
+    "sfx/steps_water_8.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "steps_mud": {
+   "files": [
+    "sfx/steps_mud_1.m4a",
+    "sfx/steps_mud_2.m4a",
+    "sfx/steps_mud_3.m4a",
+    "sfx/steps_mud_4.m4a",
+    "sfx/steps_mud_5.m4a",
+    "sfx/steps_mud_6.m4a",
+    "sfx/steps_mud_7.m4a",
+    "sfx/steps_mud_8.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "steps_carpet": {
+   "files": [
+    "sfx/steps_carpet_1.m4a",
+    "sfx/steps_carpet_2.m4a",
+    "sfx/steps_carpet_3.m4a",
+    "sfx/steps_carpet_4.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "land_grass": {
+   "files": [
+    "sfx/land_grass_1.m4a",
+    "sfx/land_grass_2.m4a",
+    "sfx/land_grass_3.m4a",
+    "sfx/land_grass_4.m4a",
+    "sfx/land_grass_5.m4a",
+    "sfx/land_grass_6.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.08
+  },
+  "land_stone": {
+   "files": [
+    "sfx/land_stone_1.m4a",
+    "sfx/land_stone_2.m4a",
+    "sfx/land_stone_3.m4a",
+    "sfx/land_stone_4.m4a",
+    "sfx/land_stone_5.m4a",
+    "sfx/land_stone_6.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.08
+  },
+  "land_snow": {
+   "files": [
+    "sfx/land_snow_1.m4a",
+    "sfx/land_snow_2.m4a",
+    "sfx/land_snow_3.m4a",
+    "sfx/land_snow_4.m4a",
+    "sfx/land_snow_5.m4a",
+    "sfx/land_snow_6.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.08
+  },
+  "land": {
+   "files": [
+    "sfx/land_1.m4a",
+    "sfx/land_2.m4a",
+    "sfx/land_3.m4a",
+    "sfx/land_4.m4a",
+    "sfx/land_5.m4a",
+    "sfx/land_6.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.08
+  },
+  "jump": {
+   "files": [
+    "sfx/jump_1.m4a",
+    "sfx/jump_2.m4a",
+    "sfx/jump_3.m4a",
+    "sfx/jump_4.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.08
+  },
+  "splash_small": {
+   "files": [
+    "sfx/splash_small_1.m4a",
+    "sfx/splash_small_2.m4a",
+    "sfx/splash_small_3.m4a",
+    "sfx/splash_small_4.m4a",
+    "sfx/splash_small_5.m4a",
+    "sfx/splash_small_6.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.1
+  },
+  "plouf": {
+   "files": [
+    "sfx/plouf_1.m4a",
+    "sfx/plouf_2.m4a",
+    "sfx/plouf_3.m4a"
+   ],
+   "gain": 0.9
+  },
+  "swim_stroke": {
+   "files": [
+    "sfx/swim_stroke_1.m4a",
+    "sfx/swim_stroke_2.m4a",
+    "sfx/swim_stroke_3.m4a",
+    "sfx/swim_stroke_4.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.1
+  },
+  "bubble": {
+   "files": [
+    "sfx/bubble_1.m4a",
+    "sfx/bubble_2.m4a",
+    "sfx/bubble_3.m4a",
+    "sfx/bubble_4.m4a",
+    "sfx/bubble_5.m4a",
+    "sfx/bubble_6.m4a"
+   ],
+   "gain": 0.5,
+   "rand": 0.25
+  },
+  "assiettes": {
+   "files": [
+    "sfx/assiettes_1.m4a",
+    "sfx/assiettes_2.m4a"
+   ],
+   "gain": 0.85
+  },
+  "toc_toc": {
+   "files": [
+    "sfx/toc_toc_1.m4a",
+    "sfx/toc_toc_2.m4a",
+    "sfx/toc_toc_3.m4a"
+   ],
+   "gain": 0.9
+  },
+  "porte_claque": {
+   "files": [
+    "sfx/porte_claque_1.m4a",
+    "sfx/porte_claque_2.m4a"
+   ],
+   "gain": 0.8
+  },
+  "door_close": {
+   "files": [
+    "sfx/door_close_1.m4a",
+    "sfx/door_close_2.m4a",
+    "sfx/door_close_3.m4a"
+   ],
+   "gain": 0.65,
+   "rand": 0.05
+  },
+  "door_open": {
+   "files": [
+    "sfx/door_open_1.m4a",
+    "sfx/door_open_2.m4a",
+    "sfx/door_open_3.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.05
+  },
+  "chest_open": {
+   "files": [
+    "sfx/chest_open_1.m4a",
+    "sfx/chest_open_2.m4a"
+   ],
+   "gain": 0.8
+  },
+  "ice_freeze": {
+   "files": [
+    "sfx/ice_freeze_1.m4a",
+    "sfx/ice_freeze_2.m4a"
+   ],
+   "gain": 0.8
+  },
+  "miaou_etouffe": {
+   "files": [
+    "sfx/miaou_etouffe_1.m4a",
+    "sfx/miaou_etouffe_2.m4a",
+    "sfx/miaou_etouffe_3.m4a"
+   ],
+   "gain": 0.9,
+   "rand": 0.05
+  },
+  "miaou": {
+   "files": [
+    "sfx/miaou_1.m4a",
+    "sfx/miaou_2.m4a",
+    "sfx/miaou_3.m4a",
+    "sfx/miaou_4.m4a"
+   ],
+   "gain": 0.75,
+   "rand": 0.05
+  },
+  "ventre": {
+   "files": [
+    "sfx/ventre_1.m4a",
+    "sfx/ventre_2.m4a"
+   ],
+   "gain": 0.95
+  },
+  "cri_ecureuil": {
+   "files": [
+    "sfx/cri_ecureuil_1.m4a",
+    "sfx/cri_ecureuil_2.m4a",
+    "sfx/cri_ecureuil_3.m4a"
+   ],
+   "gain": 0.7
+  },
+  "snore": {
+   "files": [
+    "sfx/snore_1.m4a",
+    "sfx/snore_2.m4a"
+   ],
+   "gain": 0.7
+  },
+  "yawn": {
+   "files": [
+    "sfx/yawn_1.m4a",
+    "sfx/yawn_2.m4a"
+   ],
+   "gain": 0.8
+  },
+  "guitar_strum": {
+   "files": [
+    "sfx/guitar_strum_1.m4a",
+    "sfx/guitar_strum_2.m4a",
+    "sfx/guitar_strum_3.m4a"
+   ],
+   "gain": 0.8
+  },
+  "bell": {
+   "files": [
+    "sfx/bell_1.m4a",
+    "sfx/bell_2.m4a"
+   ],
+   "gain": 0.7
+  },
+  "magie": {
+   "files": [
+    "sfx/magie_1.m4a",
+    "sfx/magie_2.m4a"
+   ],
+   "gain": 0.75
+  },
+  "sparkle": {
+   "files": [
+    "sfx/sparkle_1.m4a",
+    "sfx/sparkle_2.m4a",
+    "sfx/sparkle_3.m4a",
+    "sfx/sparkle_4.m4a"
+   ],
+   "gain": 0.55,
+   "rand": 0.12
+  },
+  "crystal_chime": {
+   "files": [
+    "sfx/crystal_chime.m4a"
+   ],
+   "gain": 0.7
+  },
+  "respawn": {
+   "files": [
+    "sfx/respawn.m4a"
+   ],
+   "gain": 0.8
+  },
+  "magic_whoosh": {
+   "files": [
+    "sfx/magic_whoosh_1.m4a",
+    "sfx/magic_whoosh_2.m4a"
+   ],
+   "gain": 0.7
+  },
+  "fire_whoosh": {
+   "files": [
+    "sfx/fire_whoosh_1.m4a",
+    "sfx/fire_whoosh_2.m4a"
+   ],
+   "gain": 0.75
+  },
+  "glace_casse": {
+   "files": [
+    "sfx/glace_casse_1.m4a",
+    "sfx/glace_casse_2.m4a"
+   ],
+   "gain": 0.8
+  },
+  "coin": {
+   "files": [
+    "sfx/coin_1.m4a",
+    "sfx/coin_2.m4a",
+    "sfx/coin_3.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.03
+  },
+  "ui_choice": {
+   "files": [
+    "sfx/ui_choice.m4a"
+   ],
+   "gain": 0.65
+  },
+  "ui_tap": {
+   "files": [
+    "sfx/ui_tap_1.m4a",
+    "sfx/ui_tap_2.m4a",
+    "sfx/ui_tap_3.m4a",
+    "sfx/ui_tap_4.m4a"
+   ],
+   "gain": 0.6,
+   "rand": 0.06
+  },
+  "ui_open": {
+   "files": [
+    "sfx/ui_open.m4a"
+   ],
+   "gain": 0.7
+  },
+  "ui_close": {
+   "files": [
+    "sfx/ui_close.m4a"
+   ],
+   "gain": 0.7
+  },
+  "pencil": {
+   "files": [
+    "sfx/pencil_1.m4a",
+    "sfx/pencil_2.m4a"
+   ],
+   "gain": 0.5
+  },
+  "page_turn": {
+   "files": [
+    "sfx/page_turn.m4a"
+   ],
+   "gain": 0.7,
+   "rand": 0.06
+  },
+  "book_open": {
+   "files": [
+    "sfx/book_open.m4a"
+   ],
+   "gain": 0.7
+  },
+  "power": {
+   "files": [
+    "sfx/power.m4a"
+   ],
+   "gain": 0.85
+  },
+  "stinger_good": {
+   "files": [
+    "sfx/stinger_good.m4a"
+   ],
+   "gain": 0.85
+  },
+  "stinger_level": {
+   "files": [
+    "sfx/stinger_level.m4a"
+   ],
+   "gain": 0.85
+  }
+ }
+}

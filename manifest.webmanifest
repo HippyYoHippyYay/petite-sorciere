@@ -1,0 +1,11 @@
+{
+  "name": "L'aventure magique dont tu es la sorcière !",
+  "short_name": "La Sorcière",
+  "lang": "fr",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#2a1840",
+  "theme_color": "#2a1840",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
