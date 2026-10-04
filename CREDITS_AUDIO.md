@@ -76,3 +76,92 @@ Musique : HydroGene ; Abstraction (abstractionmusic.com). Sons : NOX SOUND, Cheq
 - FilmCow SFX - Ambiences.zip: only night ambience has distant traffic; not needed
 - FilmCow SFX - Mechanisms & Movement 48kHz.zip: nothing needed
 - id `laugh_child`: no child laugh in any pack (NOX laughs are adult); left out so the runtime stays silent
+
+<!-- VO-CREDITS:BEGIN (Tools/Audio/vo/credits_vo.py) -->
+## Voice-over (French text-to-speech)
+
+Every voice line in `Games/PetiteSorciere/public/assets/audio/vo/` was synthesised by `Tools/Audio/vo/run_vo.py` (casting: `Games/PetiteSorciere/content/cast/voices.fr.json`). No human actor recorded them.
+
+### Kyutai TTS 1.6B en/fr - Kyutai
+
+- Model: `kyutai/tts-1.6b-en_fr` (https://huggingface.co/kyutai/tts-1.6b-en_fr), run with moshi 0.2.13
+- Licence: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Credit: "Kyutai TTS (kyutai.org), CC-BY 4.0"
+- Voices: the pre-computed voice embeddings of `kyutai/tts-voices` (https://huggingface.co/kyutai/tts-voices), `cml-tts/fr/*_enhanced` (CC-BY 4.0; built from CML-TTS speaker clips, cleaned by ai-coustics). Speaker ids used:
+
+| CML-TTS speaker | voice file | game speakers |
+|---|---|---|
+| 577 | `cml-tts/fr/577_394_000070-0001_enhanced.wav` | BRUME, CHATAIGNE |
+| 928 | `cml-tts/fr/928_486_000075-0001_enhanced.wav` | PAILLE, PEIGNE, PIC |
+| 1406 | `cml-tts/fr/1406_1028_000009-0003_enhanced.wav` | FAGOT, GARDE |
+| 2114 | `cml-tts/fr/2114_1656_000053-0001_enhanced.wav` | DODO, GRENOUILLE, TOUFFU |
+| 2216 | `cml-tts/fr/2216_1745_000007-0001_enhanced.wav` | ENFANT2, ESCARGOT |
+| 2223 | `cml-tts/fr/2223_1745_000009-0002_enhanced.wav` | BERGER, BRIQUE, LOUP |
+| 2465 | `cml-tts/fr/2465_1943_000152-0002_enhanced.wav` | FEE_BLEUE (fallback), MILA, PRALINE |
+| 3267 | `cml-tts/fr/3267_1902_000075-0001_enhanced.wav` | PETITGADOU, SORC |
+| 4193 | `cml-tts/fr/4193_3103_000004-0001_enhanced.wav` | GADOU |
+| 4937 | `cml-tts/fr/4937_3731_000004-0001_enhanced.wav` | FACTEUR, JONGLEUR, LEON |
+| 6318 | `cml-tts/fr/6318_7016_000027-0002_enhanced.wav` | CITROUILLE, NOISETTE |
+| 7400 | `cml-tts/fr/7400_2928_000100-0001_enhanced.wav` | MAMAN, VILLAGEOIS |
+| 7762 | `cml-tts/fr/7762_8734_000048-0002_enhanced.wav` | LICORNE, NARR |
+| 9834 | `cml-tts/fr/9834_9697_000150-0003_enhanced.wav` | BRINDILLE, PAPA |
+| 10179 | `cml-tts/fr/10179_11051_000005-0001_enhanced.wav` | FEE_BLEUE, FEE_ROSE, PETALE |
+| 12205 | `cml-tts/fr/12205_11650_000004-0002_enhanced.wav` | MAMIE, ONDINE |
+| 12977 | `cml-tts/fr/12977_10625_000037-0001_enhanced.wav` | ENFANT1, FRERE |
+
+### Chatterbox Multilingual - Resemble AI
+
+- Model: `ResembleAI/chatterbox` multilingual weights (https://huggingface.co/ResembleAI/chatterbox), chatterbox-tts 0.1.7
+- Licence: MIT (notice below). Every output carries Resemble AI's imperceptible Perth watermark.
+- Zero-shot voice cloning from these reference clips (copies in `Tools/Audio/audition/refs/`, CC-BY 4.0, CML-TTS dataset):
+
+| CML-TTS speaker | reference clip | game speakers |
+|---|---|---|
+| 577 | `cml-tts/fr/577_394_000070-0001_enhanced.wav` | CHOUETTE |
+| 1406 | `cml-tts/fr/1406_1028_000009-0003_enhanced.wav` | PAPY |
+| 2216 | `cml-tts/fr/2216_1745_000007-0001_enhanced.wav` | PECHEUR, ROI |
+| 3267 | `cml-tts/fr/3267_1902_000075-0001_enhanced.wav` | MARCHANDE |
+| 4193 | `cml-tts/fr/4193_3103_000004-0001_enhanced.wav` | PISTACHE |
+| 4937 | `cml-tts/fr/4937_3731_000004-0001_enhanced.wav` | BARNABE |
+| 7400 | `cml-tts/fr/7400_2928_000100-0001_enhanced.wav` | BOULANGERE |
+| 9834 | `cml-tts/fr/9834_9697_000150-0003_enhanced.wav` | FLOCON |
+| 12205 | `cml-tts/fr/12205_11650_000004-0002_enhanced.wav` | URSULINE |
+
+### CML-TTS dataset
+
+- Oliveira, F. S., Casanova, E., Junior, A. C., Soares, A. S., Galvão Filho, A. R. (2023). "CML-TTS: A Multilingual Dataset for Speech Synthesis in Low-Resource Languages". https://www.openslr.org/146/ - CC-BY 4.0. Derived from LibriVox public-domain audiobook recordings.
+- Used through the Kyutai voice embeddings and as Chatterbox reference clips (speaker ids above).
+
+### Post-processing
+
+Pitch/tempo with Rubber Band (ffmpeg `rubberband` filter), loudness to -16 LUFS / -1.5 dBTP, AAC encoding with ffmpeg. Quality check with Whisper large-v3 (faster-whisper, MIT; analysis only, nothing shipped).
+
+### Suggested in-game credit line (voices)
+
+Voix de synthèse : Kyutai TTS (kyutai.org, CC-BY 4.0) et Chatterbox (Resemble AI, licence MIT), d'après des voix du corpus CML-TTS (Oliveira et al., 2023, CC-BY 4.0, enregistrements LibriVox).
+
+### Chatterbox licence notice
+
+```
+MIT License
+
+Copyright (c) 2025 Resemble AI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+<!-- VO-CREDITS:END -->
