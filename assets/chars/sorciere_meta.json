@@ -63,6 +63,152 @@
    "duration": 1.5,
    "loop": true,
    "speed": null
+  },
+  "sit_idle": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": true,
+   "speed": null,
+   "face": "smile",
+   "seat": {
+    "height": 0.45,
+    "front": 0.0,
+    "root_bone": [
+     0.0,
+     0.204,
+     -0.07
+    ],
+    "note": "origin on the floor directly below the seat's front edge, facing away from the seat (the seat extends behind her, -z); the clip itself lifts the root bone onto the seat (root_bone); for a seat of height h raise the origin by h - height"
+   }
+  },
+  "sit_talk": {
+   "frames": 96,
+   "fps": 24,
+   "duration": 4.0,
+   "loop": true,
+   "speed": null,
+   "face": "smile",
+   "seat": {
+    "height": 0.45,
+    "front": 0.0,
+    "root_bone": [
+     0.0,
+     0.204,
+     -0.07
+    ],
+    "note": "origin on the floor directly below the seat's front edge, facing away from the seat (the seat extends behind her, -z); the clip itself lifts the root bone onto the seat (root_bone); for a seat of height h raise the origin by h - height"
+   }
+  },
+  "sleep": {
+   "frames": 96,
+   "fps": 24,
+   "duration": 4.0,
+   "loop": true,
+   "speed": null,
+   "face": "asleep",
+   "lying": {
+    "axis": "x",
+    "head": "-x",
+    "facing": "+z",
+    "min": [
+     -0.829,
+     -0.01,
+     -0.2
+    ],
+    "max": [
+     0.364,
+     0.708,
+     0.559
+    ],
+    "note": "lies on her right side along x, head (hat) toward -x, boots toward +x, face toward +z; origin on the bed / floor surface under her waist; min / max = her bounding box (glTF axes)"
+   }
+  },
+  "stretch": {
+   "frames": 60,
+   "fps": 24,
+   "duration": 2.5,
+   "loop": false,
+   "speed": null,
+   "face": "yawn",
+   "note": "starts and ends on idle frame 0"
+  },
+  "clap": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": true,
+   "speed": null,
+   "face": "happy_open",
+   "hits": [
+    0.0,
+    0.6,
+    1.2,
+    1.8,
+    2.4
+   ],
+   "bpm": 100
+  },
+  "carry_idle": {
+   "frames": 48,
+   "fps": 24,
+   "duration": 2.0,
+   "loop": true,
+   "speed": null,
+   "face": "smile",
+   "carry": [
+    -0.0,
+    0.538,
+    0.213
+   ],
+   "carry_note": "centre between the palms (glTF x, y up, z forward); rest the dish's base here"
+  },
+  "carry_walk": {
+   "frames": 12,
+   "fps": 24,
+   "duration": 0.5,
+   "loop": true,
+   "speed": 0.7857142857142857,
+   "face": "smile",
+   "carry": [
+    -0.0,
+    0.538,
+    0.213
+   ],
+   "carry_note": "centre between the palms (glTF x, y up, z forward); rest the dish's base here"
+  },
+  "knock": {
+   "frames": 29,
+   "fps": 24,
+   "duration": 1.2083333333333333,
+   "loop": false,
+   "speed": null,
+   "face": "smile",
+   "door": 0.313,
+   "hits": [
+    0.375,
+    0.583,
+    0.792
+   ],
+   "door_note": "door surface this far in front of the origin (z); 'hits' = knuckle contact times (s)"
+  },
+  "hug": {
+   "frames": 48,
+   "fps": 24,
+   "duration": 2.0,
+   "loop": false,
+   "speed": null,
+   "face": "wink_smile",
+   "note": "ends holding the hug (clamp the last frame)"
+  },
+  "dance": {
+   "frames": 48,
+   "fps": 24,
+   "duration": 2.0,
+   "loop": true,
+   "speed": null,
+   "face": "laugh",
+   "bpm": 120
   }
  },
  "presets": {
@@ -193,6 +339,19 @@
   "blink": {
    "Blink_L": 1.0,
    "Blink_R": 1.0
+  },
+  "asleep": {
+   "Blink_L": 1.0,
+   "Blink_R": 1.0,
+   "Mouth_Small": 0.5,
+   "Cheeks_Up": 0.3
+  },
+  "yawn": {
+   "Blink_L": 1.0,
+   "Blink_R": 1.0,
+   "Mouth_O": 1.0,
+   "Mouth_Open": 0.6,
+   "Brows_Up": 0.5
   }
  },
  "look": {
