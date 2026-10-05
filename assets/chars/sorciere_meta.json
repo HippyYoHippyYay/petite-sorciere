@@ -1,25 +1,25 @@
 {
  "clips": {
   "idle": {
-   "frames": 48,
+   "frames": 144,
    "fps": 24,
-   "duration": 2.0,
+   "duration": 6.0,
    "loop": true,
    "speed": null
   },
   "walk": {
+   "frames": 16,
+   "fps": 24,
+   "duration": 0.6666666666666666,
+   "loop": true,
+   "speed": 0.6818181818181818
+  },
+  "run": {
    "frames": 12,
    "fps": 24,
    "duration": 0.5,
    "loop": true,
-   "speed": 0.7857142857142857
-  },
-  "run": {
-   "frames": 10,
-   "fps": 24,
-   "duration": 0.4166666666666667,
-   "loop": true,
-   "speed": 1.764705882352941
+   "speed": 1.588235294117647
   },
   "jump_up": {
    "frames": 8,
@@ -48,12 +48,13 @@
    "duration": 0.75,
    "loop": false,
    "speed": null,
-   "fire": 0.375
+   "fire": 0.375,
+   "overlay": true
   },
   "cheer": {
-   "frames": 30,
+   "frames": 36,
    "fps": 24,
-   "duration": 1.25,
+   "duration": 1.5,
    "loop": true,
    "speed": null
   },
@@ -62,7 +63,8 @@
    "fps": 24,
    "duration": 1.5,
    "loop": true,
-   "speed": null
+   "speed": null,
+   "overlay": true
   },
   "sit_idle": {
    "frames": 72,
@@ -164,11 +166,11 @@
    "carry_note": "centre between the palms (glTF x, y up, z forward); rest the dish's base here"
   },
   "carry_walk": {
-   "frames": 12,
+   "frames": 16,
    "fps": 24,
-   "duration": 0.5,
+   "duration": 0.6666666666666666,
    "loop": true,
-   "speed": 0.7857142857142857,
+   "speed": 0.6818181818181818,
    "face": "smile",
    "carry": [
     -0.0,
@@ -209,6 +211,131 @@
    "speed": null,
    "face": "laugh",
    "bpm": 120
+  },
+  "talk_1": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": true,
+   "speed": null,
+   "face": "smile",
+   "overlay": true
+  },
+  "talk_2": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": true,
+   "speed": null,
+   "face": "happy_open",
+   "overlay": true
+  },
+  "talk_3": {
+   "frames": 96,
+   "fps": 24,
+   "duration": 4.0,
+   "loop": true,
+   "speed": null,
+   "face": "smile",
+   "overlay": true,
+   "note": "starts and ends with the hands clasped in front"
+  },
+  "nod": {
+   "frames": 24,
+   "fps": 24,
+   "duration": 1.0,
+   "loop": false,
+   "speed": null,
+   "face": "happy",
+   "overlay": true
+  },
+  "shake_no": {
+   "frames": 30,
+   "fps": 24,
+   "duration": 1.25,
+   "loop": false,
+   "speed": null,
+   "face": "pout",
+   "overlay": true
+  },
+  "think": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": true,
+   "speed": null,
+   "face": "think",
+   "overlay": true
+  },
+  "surprised": {
+   "frames": 36,
+   "fps": 24,
+   "duration": 1.5,
+   "loop": false,
+   "speed": null,
+   "face": "surprised",
+   "full": true,
+   "hold_at": 0.833,
+   "note": "hops back a little (the body only: the feet stay on the spot)"
+  },
+  "point": {
+   "frames": 48,
+   "fps": 24,
+   "duration": 2.0,
+   "loop": false,
+   "speed": null,
+   "face": "happy_open",
+   "overlay": true,
+   "hold_at": 1.0
+  },
+  "shrug": {
+   "frames": 36,
+   "fps": 24,
+   "duration": 1.5,
+   "loop": false,
+   "speed": null,
+   "face": "confused",
+   "overlay": true,
+   "hold_at": 0.667
+  },
+  "look_around": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": false,
+   "speed": null,
+   "face": "confused",
+   "overlay": true,
+   "note": "looks to her left (0.5 s), then to her right (1.6 s), back to the front"
+  },
+  "sad": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": true,
+   "speed": null,
+   "face": "sad",
+   "overlay": true,
+   "note": "a slow sigh per loop (3 s)"
+  },
+  "proud": {
+   "frames": 72,
+   "fps": 24,
+   "duration": 3.0,
+   "loop": true,
+   "speed": null,
+   "face": "happy",
+   "overlay": true,
+   "note": "hands on the hips, chin up; sways side to side once per loop"
+  },
+  "giggle": {
+   "frames": 48,
+   "fps": 24,
+   "duration": 2.0,
+   "loop": true,
+   "speed": null,
+   "face": "laugh",
+   "overlay": true
   }
  },
  "presets": {

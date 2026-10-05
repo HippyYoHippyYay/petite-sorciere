@@ -6,10 +6,10 @@
  "variant": 1,
  "note": "Generated; do not edit by hand. Skeleton = Quaternius UAL (bone names and rest orientations), re-proportioned lengths only: play chars/ual_clips.glb by bone name.",
  "height": 1.76,
- "topY": 2.036,
- "headCenterY": 1.55,
- "headH": 0.42,
- "bubbleY": 2.176,
+ "topY": 2.097,
+ "headCenterY": 1.504,
+ "headH": 0.512,
+ "bubbleY": 2.237,
  "pelvisScale": 0.7418,
  "pelvisRest": [
   0,
@@ -24,11 +24,11 @@
  "lods": {
   "high": {
    "file": "fagot.glb",
-   "tris": 11797
+   "tris": 27797
   },
   "low": {
    "file": "fagot_low.glb",
-   "tris": 4886
+   "tris": 9294
   }
  },
  "meshes": {
@@ -86,7 +86,8 @@
    "Mouth_Smile",
    "Mouth_Frown",
    "Mouth_O",
-   "Mouth_Wide"
+   "Mouth_Wide",
+   "Mouth_Grin"
   ],
   "lipSync": "Mouth_Open",
   "controls": {
@@ -96,7 +97,7 @@
      1,
      0,
      0,
-     62.0
+     99.0
     ]
    },
    "Wide_L": {
@@ -105,7 +106,7 @@
      1,
      0,
      0,
-     -12.0
+     -14.0
     ]
    },
    "Squint_L": {
@@ -114,14 +115,14 @@
      1,
      0,
      0,
-     -26.0
+     -82.0
     ]
    },
    "BrowUp_L": {
     "bone": "brow_l",
     "move": [
      0,
-     0.022,
+     0.0366,
      0
     ]
    },
@@ -129,7 +130,7 @@
     "bone": "brow_l",
     "move": [
      0,
-     -0.011,
+     -0.0183,
      0
     ]
    },
@@ -139,11 +140,11 @@
      0,
      0,
      1,
-     16.0
+     22.0
     ],
     "move": [
      0,
-     -0.007699999999999999,
+     -0.01281,
      0.003
     ]
    },
@@ -153,11 +154,11 @@
      0,
      0,
      1,
-     -16.0
+     -22.0
     ],
     "move": [
      0,
-     0.0032999999999999995,
+     0.00549,
      0.0
     ]
    },
@@ -167,7 +168,7 @@
      1,
      0,
      0,
-     62.0
+     99.0
     ]
    },
    "Wide_R": {
@@ -176,7 +177,7 @@
      1,
      0,
      0,
-     -12.0
+     -14.0
     ]
    },
    "Squint_R": {
@@ -185,14 +186,14 @@
      1,
      0,
      0,
-     -26.0
+     -82.0
     ]
    },
    "BrowUp_R": {
     "bone": "brow_r",
     "move": [
      0,
-     0.022,
+     0.0366,
      0
     ]
    },
@@ -200,7 +201,7 @@
     "bone": "brow_r",
     "move": [
      0,
-     -0.011,
+     -0.0183,
      0
     ]
    },
@@ -210,11 +211,11 @@
      0,
      0,
      1,
-     -16.0
+     -22.0
     ],
     "move": [
      0,
-     -0.007699999999999999,
+     -0.01281,
      0.003
     ]
    },
@@ -224,11 +225,11 @@
      0,
      0,
      1,
-     16.0
+     22.0
     ],
     "move": [
      0,
-     0.0032999999999999995,
+     0.00549,
      0.0
     ]
    },
@@ -246,6 +247,9 @@
    },
    "Mouth_Wide": {
     "morph": "Mouth_Wide"
+   },
+   "Mouth_Grin": {
+    "morph": "Mouth_Grin"
    }
   }
  },
@@ -256,17 +260,18 @@
    "Mouth_O": 0.15
   },
   "smile": {
-   "Mouth_Smile": 0.85,
-   "Squint_L": 0.3,
-   "Squint_R": 0.3,
-   "BrowUp_L": 0.15,
-   "BrowUp_R": 0.15
+   "Mouth_Smile": 1.0,
+   "Mouth_Open": 0.12,
+   "Squint_L": 0.38,
+   "Squint_R": 0.38,
+   "BrowUp_L": 0.25,
+   "BrowUp_R": 0.25
   },
   "talk": {
-   "Mouth_Open": 0.4,
-   "Mouth_Smile": 0.3,
-   "BrowUp_L": 0.2,
-   "BrowUp_R": 0.2
+   "Mouth_Open": 0.45,
+   "Mouth_Smile": 0.35,
+   "BrowUp_L": 0.25,
+   "BrowUp_R": 0.25
   },
   "surprised": {
    "Mouth_O": 1.0,
@@ -279,32 +284,31 @@
    "Mouth_Frown": 1.0,
    "BrowSad_L": 1.0,
    "BrowSad_R": 1.0,
-   "Blink_L": 0.22,
-   "Blink_R": 0.22
+   "Blink_L": 0.2,
+   "Blink_R": 0.2
   },
   "laugh": {
-   "Mouth_Open": 0.75,
-   "Mouth_Smile": 1.0,
+   "Mouth_Grin": 1.0,
    "Squint_L": 1.0,
    "Squint_R": 1.0,
-   "Blink_L": 0.55,
-   "Blink_R": 0.55,
-   "BrowUp_L": 0.45,
-   "BrowUp_R": 0.45
+   "Blink_L": 0.192,
+   "Blink_R": 0.192,
+   "BrowUp_L": 0.6,
+   "BrowUp_R": 0.6
   },
   "angry": {
-   "Mouth_Frown": 0.75,
-   "Mouth_Wide": 0.2,
+   "Mouth_Frown": 0.85,
+   "Mouth_Wide": 0.25,
    "BrowAngry_L": 1.0,
    "BrowAngry_R": 1.0,
-   "Blink_L": 0.18,
-   "Blink_R": 0.18
+   "Blink_L": 0.12,
+   "Blink_R": 0.12
   },
   "sleepy": {
-   "Blink_L": 0.62,
-   "Blink_R": 0.62,
-   "BrowSad_L": 0.25,
-   "BrowSad_R": 0.25,
+   "Blink_L": 0.68,
+   "Blink_R": 0.68,
+   "BrowSad_L": 0.3,
+   "BrowSad_R": 0.3,
    "Mouth_O": 0.15,
    "Mouth_Open": 0.08
   }
@@ -321,6 +325,6 @@
  ],
  "beard": null,
  "verify": {
-  "restRotationErrorDeg": 0.03749
+  "restRotationErrorDeg": 0.03752
  }
 }
